@@ -7,27 +7,30 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 text-aline="center">Contablito</h1>
+    <h1 id="titulo">Contablito</h1>
     <div>
         Descripción:
-        <input type="text" placeholder="Ingrese título">
+        <input type="text" placeholder="Ingrese Descripción">
         
     </div>
 
     <div>
-        Tipo de trasnacción
-        <input type="radio" id="compra" name="compra">Compra
-    </div>
-    <div>
+        Tipo de trasnacción:
+        <input type="radio" id="compra" name="compra">Compra  
         <input type="radio" id="venta" name="venta">Venta
     </div>
 
 
     <div>
-        Tipo IVA
+        Tipo IVA:
         <input type="radio" id="basico" name="basico">Básico
         <input type="radio" id="minimo" name="minimo">Mínimo
         <input type="radio" id="excento" name="excento">Excento
+    </div>
+
+    <div>
+        Subtotal ($)
+        <input type="text">
     </div>
 </body>
 </html>
