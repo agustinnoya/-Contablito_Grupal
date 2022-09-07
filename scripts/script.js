@@ -11,6 +11,6 @@ const totalcompras = document.getElementById("totalcompras");
 const textofinal = "Total Ventas: $" + totalventas + "Total Compras: $" + totalcompras;
 
 document.addEventListener("click", (function () {
-
+    
 
 }))
